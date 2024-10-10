@@ -5,19 +5,43 @@ This project is part of the SkyHack 2.0 Hackathon, where the objective is to ana
 
 ## **Project Overview**
 
-The main objectives of the project are:
+The main deliverables of the project are:
 
-1. **Identifying Key Factors for Long AHT:**  
-   Analyze agent performance, call types, and customer sentiment to discover the drivers of long AHT and AST (Average Speed to Answer).
-   
-2. **Clustering Call Transcripts:**  
-   Apply Natural Language Processing (NLP) techniques to group similar call transcripts and identify recurring issues.
+1. **Long Average Handle Time (AHT) Analysis**:
+   - We explored the factors contributing to extended call durations, such as agent performance, call types, and customer sentiment.
+   - Identified key drivers of long AHT and AST, especially during high volume call periods.
+   - Quantified the percentage difference between the average handling time for the most frequent and least frequent call reasons to identify optimization opportunities.
 
-3. **Optimizing Agent Allocation:**  
-   Understand peak hour trends and recommend better agent distribution during high call volume periods to improve efficiency.
+2. **Self-Solvable Issues Escalation**:
+   - We observed a significant portion of calls related to self-solvable issues unnecessarily escalating to agents, increasing their workload.
+   - Using transcript and call reason analysis, we identified granular recurring problems that could be resolved via self-service options in the IVR system.
+   - Proposed specific IVR improvements to reduce agent intervention, backed by data-driven recommendations.
 
-4. **Self-Service IVR Enhancement:**  
-   Identify self-resolvable issues and propose improvements to the IVR system to handle them, thus reducing unnecessary agent intervention.
+3. **Understanding Primary Call Reasons**:
+   - Analyzed the dataset to uncover patterns that helped categorize primary call reasons.
+   - This categorization enables the call center to streamline processes, reduce manual tagging efforts, and ensure customers are directed to the appropriate resources.
+   - Optional task: A classification model was built to predict `primary_call_reason` for missing values in the dataset, utilizing NLP and clustering techniques.
+
+---
+
+## Data Dictionary:
+
+| **Column Name**               | **Description**                                             |
+| ----------------------------- | ----------------------------------------------------------- |
+| `call_id`                     | Unique identifier for each call                             |
+| `customer_id`                 | Unique identifier for the customer                          |
+| `agent_id`                    | Unique identifier for the agent handling the call           |
+| `call_start_datetime`         | Date and time of the call                                   |
+| `agent_assigned_datetime`     | Date and time of when agent answered the call               |
+| `call_end_datetime`           | Date and time of the call ending                            |
+| `customer_name`               | Name of the customer                                        |
+| `mp_status`                   | Customer loyalty status (NaN, 0, 1, 2, 3, 4, 5)            |
+| `agent_tone`                  | Detected tone of the agent (score from 0 to 5)              |
+| `customer_tone`               | Detected tone of the customer (score from 0 to 5)           |
+| `average_sentiment`           | Sentiment score of the conversation (range: -1 to 1)        |
+| `silence_percent_average`     | Average percentage of silence in calls                      |
+| `call_transcript`             | Full transcript of the call conversation                    |
+| `primary_call_reason`         | Detected primary reason for the call                        |
 
 ---
 
@@ -36,12 +60,12 @@ To run this project locally, follow the steps below:
    ```
    Libraries used in this project include:
    
-   - **pandas**
-   - **numpy**
-   - **scikit-learn**
-   - **matplotlib**
-   - **seaborn**
-   - **wordcloud**
+   - `pandas`
+   - `numpy`
+   - `scikit-learn`
+   - `matplotlib`
+   - `seaborn`
+   - `wordcloud`
 
 3. **Run the Notebook:**
   Launch the notebook with the following command:
