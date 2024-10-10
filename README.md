@@ -24,27 +24,6 @@ The main deliverables of the project are:
 
 ---
 
-## Data Dictionary:
-
-| **Column Name**               | **Description**                                             |
-| ----------------------------- | ----------------------------------------------------------- |
-| `call_id`                     | Unique identifier for each call                             |
-| `customer_id`                 | Unique identifier for the customer                          |
-| `agent_id`                    | Unique identifier for the agent handling the call           |
-| `call_start_datetime`         | Date and time of the call                                   |
-| `agent_assigned_datetime`     | Date and time of when agent answered the call               |
-| `call_end_datetime`           | Date and time of the call ending                            |
-| `customer_name`               | Name of the customer                                        |
-| `mp_status`                   | Customer loyalty status (NaN, 0, 1, 2, 3, 4, 5)            |
-| `agent_tone`                  | Detected tone of the agent (score from 0 to 5)              |
-| `customer_tone`               | Detected tone of the customer (score from 0 to 5)           |
-| `average_sentiment`           | Sentiment score of the conversation (range: -1 to 1)        |
-| `silence_percent_average`     | Average percentage of silence in calls                      |
-| `call_transcript`             | Full transcript of the call conversation                    |
-| `primary_call_reason`         | Detected primary reason for the call                        |
-
----
-
 ## **Installation Instructions**
 
 To run this project locally, follow the steps below:
@@ -99,6 +78,27 @@ To run this project locally, follow the steps below:
 5. **Self-Service IVR Recommendations:**
    Identified 92.63% of calls that could be handled by self-service options in the IVR system, such as flight status, booking updates, or cancellations.
    Suggested improvements to the IVR flow to minimize escalations to human agents for simple, self-solvable issues.
+
+---
+
+## Data Dictionary:
+
+| **Column Name**               | **Description**                                             |
+| ----------------------------- | ----------------------------------------------------------- |
+| `call_id`                     | Unique identifier for each call                             |
+| `customer_id`                 | Unique identifier for the customer                          |
+| `agent_id`                    | Unique identifier for the agent handling the call           |
+| `call_start_datetime`         | Date and time of the call                                   |
+| `agent_assigned_datetime`     | Date and time of when agent answered the call               |
+| `call_end_datetime`           | Date and time of the call ending                            |
+| `customer_name`               | Name of the customer                                        |
+| `mp_status`                   | Customer loyalty status (NaN, 0, 1, 2, 3, 4, 5)            |
+| `agent_tone`                  | Detected tone of the agent (score from 0 to 5)              |
+| `customer_tone`               | Detected tone of the customer (score from 0 to 5)           |
+| `average_sentiment`           | Sentiment score of the conversation (range: -1 to 1)        |
+| `silence_percent_average`     | Average percentage of silence in calls                      |
+| `call_transcript`             | Full transcript of the call conversation                    |
+| `primary_call_reason`         | Detected primary reason for the call                        |
 
 ---
 
