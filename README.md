@@ -43,12 +43,14 @@ Libraries used in this project include:
 - **seaborn**
 - **wordcloud**
 
-  3. **Run the Notebook:**
+3. **Run the Notebook:**
   Launch the notebook with the following command:
    ```bash
    jupyter notebook sky_hack.ipynb
 
 Note: Running the full notebook might take **approximately 20 minutes** due to the complex data processing, clustering, and prediction steps. Please ensure you have sufficient system resources for the execution.
+
+---
 
 ## Approach and Methodology
 
@@ -74,9 +76,13 @@ Dynamic agent allocation could reduce AHT during peak times by matching agent av
 Identified 14.77% of calls that could be handled by self-service options in the IVR system, such as flight status, booking updates, or cancellations.
 Suggested improvements to the IVR flow to minimize escalations to human agents for simple, self-solvable issues.
 
+---
+
 ## Test File Prediction
 
 To handle the missing primary_call_reason values, a classification model was built based on the cleaned and clustered call data. The **Test.csv** file contains predicted the missing primary_call_reason values for 5157 entries.
+
+---
 
 ## Presentation
 
