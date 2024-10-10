@@ -32,7 +32,9 @@ To run this project locally, follow the steps below:
    ```bash
    git clone https://github.com/ZosTera2438/sky-hack.git
 
-2. **Install the Required Packages:**
+2. Save CSV files on which analysis will be performed in root folder.
+
+4. **Install the Required Packages:**
    Ensure you have Python installed and run the following command to install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
@@ -46,7 +48,7 @@ To run this project locally, follow the steps below:
    - `seaborn`
    - `wordcloud`
 
-3. **Run the Notebook:**
+5. **Run the Notebook:**
   Launch the notebook with the following command:
    ```bash
    jupyter notebook sky_hack.ipynb
