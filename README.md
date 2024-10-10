@@ -33,6 +33,11 @@ To run this project locally, follow the steps below:
    git clone https://github.com/ZosTera2438/sky-hack.git
 
 2. Save CSV files on which analysis will be performed in root folder.
+   - calls.csv - https://uc.hackerearth.com/he-public-data/callsf0d4f5a.csv
+   - customers.csv - https://uc.hackerearth.com/he-public-data/customers2afd6ea.csv
+   - reason.csv - https://uc.hackerearth.com/he-public-data/reason18315ff.csv
+   - sentiment_statistics - https://uc.hackerearth.com/he-public-data/sentiment_statisticscc1e57a.csv
+  
 
 4. **Install the Required Packages:**
    Ensure you have Python installed and run the following command to install the necessary dependencies:
@@ -107,11 +112,7 @@ To run this project locally, follow the steps below:
 ## Source Code
 
 Jupyter Notebook is used to perform analysis on the given data, **sky_hack.ipynb** file contains source code with outputs.
-- calls.csv - https://uc.hackerearth.com/he-public-data/callsf0d4f5a.csv
-- customers.csv - https://uc.hackerearth.com/he-public-data/customers2afd6ea.csv
-- reason.csv - https://uc.hackerearth.com/he-public-data/reason18315ff.csv
-- sentiment_statistics - https://uc.hackerearth.com/he-public-data/sentiment_statisticscc1e57a.csv
-  
+
 ---
 
 ## Test.csv
