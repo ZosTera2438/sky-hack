@@ -76,7 +76,7 @@ To run this project locally, follow the steps below:
    Dynamic agent allocation could reduce AHT during peak times by matching agent availability with customer demand.
 
 5. **Self-Service IVR Recommendations:**
-   Identified 92.63% of calls that could be handled by self-service options in the IVR system, such as flight status, booking updates, or cancellations.
+   Identified 93.24% of calls that could be handled by self-service options in the IVR system, such as flight status, booking updates, or cancellations.
    Suggested improvements to the IVR flow to minimize escalations to human agents for simple, self-solvable issues.
 
 ---
