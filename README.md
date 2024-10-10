@@ -36,7 +36,7 @@ To run this project locally, follow the steps below:
    - calls.csv - https://uc.hackerearth.com/he-public-data/callsf0d4f5a.csv
    - customers.csv - https://uc.hackerearth.com/he-public-data/customers2afd6ea.csv
    - reason.csv - https://uc.hackerearth.com/he-public-data/reason18315ff.csv
-   - sentiment_statistics - https://uc.hackerearth.com/he-public-data/sentiment_statisticscc1e57a.csv
+   - sentiment_statistics.csv - https://uc.hackerearth.com/he-public-data/sentiment_statisticscc1e57a.csv
   
 
 4. **Install the Required Packages:**
