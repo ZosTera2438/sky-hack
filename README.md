@@ -104,7 +104,7 @@ To run this project locally, follow the steps below:
 
 ---
 
-## sky_hack.ipynb
+## Source Code
 
 Jupyter Notebook is used to perform analysis on the given data, **sky_hack.ipynb** file contains source code with outputs.
 
