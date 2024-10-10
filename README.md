@@ -104,7 +104,13 @@ To run this project locally, follow the steps below:
 
 ---
 
-## Test File Prediction
+## sky_hack.ipynb
+
+Jupyter Notebook is used to perform analysis on the given data, **sky_hack.ipynb** file contains source code with outputs.
+
+---
+
+## Test.csv
 
 To handle the missing primary_call_reason values, a classification model was built based on the cleaned and clustered call data. The **Test.csv** file contains predicted the missing primary_call_reason values for 5157 entries.
 
@@ -112,5 +118,5 @@ To handle the missing primary_call_reason values, a classification model was bui
 
 ## Presentation
 
-A slide deck summarizing our analysis, insights, and recommendations is included in the repository as **sky_hack_presentation.pptx**.
+A slide deck summarizing our analysis, insights, and recommendations is included in the repository as **sky_hack_presentation.pdf**.
 
